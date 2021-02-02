@@ -29,5 +29,16 @@ namespace RockSelling.Controllers
         {
             return View();
         }
+
+        //Post-Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category obj)
+        {
+            _db.Category.Add(obj);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }
