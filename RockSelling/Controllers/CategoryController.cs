@@ -66,5 +66,22 @@ namespace RockSelling.Controllers
             }
             return View(obj);
         }
+
+
+        //Post-Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category obj)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Category.Update(obj);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+
+        }
     }
 }
