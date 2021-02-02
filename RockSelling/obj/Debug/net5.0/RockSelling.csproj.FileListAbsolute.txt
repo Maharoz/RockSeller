@@ -148,3 +148,4 @@ G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\ApplicationType\Create.cshtml.g.cs
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\ApplicationType\Index.cshtml.g.cs
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs

@@ -39,11 +39,11 @@
                     <td width="30%"> @obj.DisplayOrder</td>
                     <td class="text-center">
                         <div class="w-75 btn-group" role="group">
-                            <a asp-action="Create" asp-route-Id="@obj.Id" asp-controller="Edit" class="btn btn-primary mx-2">
+                            <a asp-route-Id="@obj.Id" asp-controller="Category" asp-action="Edit" class="btn btn-primary mx-2">
                                 Edit
                             </a>
 
-                            <a asp-action="Create" asp-route-Id="@obj.Id" asp-controller="Delete" class="btn btn-danger">
+                            <a  asp-route-Id="@obj.Id" asp-action="Delete" asp-controller="Category" class="btn btn-danger">
                                Delete
                             </a>
                         </div>
