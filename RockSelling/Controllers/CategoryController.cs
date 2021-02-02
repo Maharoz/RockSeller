@@ -19,9 +19,15 @@ namespace RockSelling.Controllers
         }
         public IActionResult Index()
         {
-
             IEnumerable<Category> objList = _db.Category;
             return View(objList);
+        }
+
+
+        //Get-Create
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }
