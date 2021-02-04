@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using RockSelling.Data;
 using RockSelling.Models;
@@ -6,8 +8,10 @@ using RockSelling.Models.ViewModels;
 using RockSelling.Utility;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace RockSelling.Controllers
@@ -16,12 +20,17 @@ namespace RockSelling.Controllers
     public class CartController : Controller
     {
         private readonly ApplicationDBContext _db;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IEmailSender _emailSender;
+
 
         [BindProperty]
         public ProductUserVM ProductUserVM { get; set; }
-        public CartController(ApplicationDBContext db)
+        public CartController(ApplicationDBContext db,IWebHostEnvironment webHostEnvironment,IEmailSender emailSender)
         {
             _db = db;
+            _webHostEnvironment = webHostEnvironment;
+            _emailSender=emailSender;
         }
         public IActionResult Index()
         {
@@ -67,10 +76,51 @@ namespace RockSelling.Controllers
             ProductUserVM = new ProductUserVM()
             {
                 ApplicationUser = _db.ApplicationUser.FirstOrDefault(u => u.Id == claim.Value),
-                ProductList = prodList
+                ProductList = prodList.ToList()
             };
             return View(ProductUserVM);
         }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ActionName("Summary")]
+        public async Task<IActionResult> Summary(ProductUserVM ProductUserVM)
+        {
+            var PathToTemplate = _webHostEnvironment.WebRootPath + Path.DirectorySeparatorChar.ToString()
+                +"templates" + Path.DirectorySeparatorChar.ToString()
+                +"Inquiry.html";
+
+            var subject = "New Inquiry";
+            string HtmlBody = "";
+
+            using(StreamReader sr = System.IO.File.OpenText(PathToTemplate))
+            {
+                HtmlBody = sr.ReadToEnd();
+            }
+
+            StringBuilder productListSB = new StringBuilder();
+            foreach(var prod in ProductUserVM.ProductList)
+            {
+                productListSB.Append($" - Name:{prod.Name} <span style='font-size:14px;'>(ID:{prod.Id})</span><br/>");
+
+            }
+
+            string messageBody = string.Format(HtmlBody, ProductUserVM.ApplicationUser.FullName,
+                ProductUserVM.ApplicationUser.Email,
+                ProductUserVM.ApplicationUser.PhoneNumber,
+                productListSB.ToString());
+
+            await _emailSender.SendEmailAsync(WC.EmailAdmin,subject,messageBody);
+            return RedirectToAction(nameof(InquiryConfirmation));
+        }
+
+        public IActionResult InquiryConfirmation()
+        {
+            HttpContext.Session.Clear();
+            return View();
+        }
+
 
         public IActionResult Remove(int id)
         {

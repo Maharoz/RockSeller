@@ -210,3 +210,5 @@ G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Areas
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Mailjet.Client.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs
