@@ -156,3 +156,4 @@ G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\obj\Debug\net5.0\RockSelling.csprojAssemblyReference.cache
