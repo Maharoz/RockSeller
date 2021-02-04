@@ -32,7 +32,8 @@ namespace RockSelling
                 Configuration.GetConnectionString("DefaultConnection")
                 )) ;
 
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddIdentity<IdentityUser,IdentityRole>()
+                .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<ApplicationDBContext>();
             services.AddHttpContextAccessor();
             services.AddSession(Options=>
