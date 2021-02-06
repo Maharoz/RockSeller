@@ -111,7 +111,7 @@ namespace RockSelling.Controllers
                 ProductUserVM.ApplicationUser.PhoneNumber,
                 productListSB.ToString());
 
-            await _emailSender.SendEmailAsync(WC.EmailAdmin,subject,messageBody);
+            await _emailSender.SendEmailAsync(ProductUserVM.ApplicationUser.Email, subject,messageBody);
             return RedirectToAction(nameof(InquiryConfirmation));
         }
 

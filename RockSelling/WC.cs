@@ -11,7 +11,7 @@ namespace RockSelling
         public const string SessionCart = "ShoppingCartSession";
 
         public const string AdminRole = "Admin";
-        public const string CustomerRole = "Admin";
+        public const string CustomerRole = "Customer";
         public const string EmailAdmin = "mahruj66@protonmail.com";
 
     }
