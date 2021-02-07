@@ -218,3 +218,9 @@ G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Microsoft.A
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\System.IO.Pipelines.dll
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_Utility.dll
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_Utility.pdb
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_Models.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_Models.pdb

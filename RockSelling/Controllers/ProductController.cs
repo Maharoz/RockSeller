@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RockSelling;
 using RockSelling.Data;
-using RockSelling.Models;
-using RockSelling.Models.ViewModels;
+using RockSelling_Models;
+using RockSelling_Models.ViewModels;
 using RockSelling_Utility;
 
 namespace Rocky.Controllers

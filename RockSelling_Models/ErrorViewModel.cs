@@ -1,6 +1,6 @@
 using System;
 
-namespace RockSelling.Models
+namespace RockSelling_Models
 {
     public class ErrorViewModel
     {

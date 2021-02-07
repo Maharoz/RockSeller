@@ -20,7 +20,7 @@ namespace RockSelling.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("RockSelling.Models.Category", b =>
+            modelBuilder.Entity("RockSelling_Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

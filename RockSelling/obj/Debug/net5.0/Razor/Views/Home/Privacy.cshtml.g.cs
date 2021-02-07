@@ -21,13 +21,13 @@ using RockSelling;
 #nullable disable
 #nullable restore
 #line 2 "G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\Views\_ViewImports.cshtml"
-using RockSelling.Models;
+using RockSelling_Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cb262b506a4e288f444ac1f5c6e1e12cf5e08239", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7caf1827019c6b8c50f2c652eb63b99b8ab77a1d", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

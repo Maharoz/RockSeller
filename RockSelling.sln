@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockSelling", "RockSelling\RockSelling.csproj", "{C3344996-0499-4774-94E7-DD32B74FEEBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockSelling_Utility", "RockSelling_Utility\RockSelling_Utility.csproj", "{3D7E320F-7BE2-4174-BB0C-3125D99392E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RockSelling_Utility", "RockSelling_Utility\RockSelling_Utility.csproj", "{3D7E320F-7BE2-4174-BB0C-3125D99392E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RockSelling_Models", "RockSelling_Models\RockSelling_Models.csproj", "{AF2E5993-D2A9-4F5F-B687-172ED8D7A1A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3D7E320F-7BE2-4174-BB0C-3125D99392E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D7E320F-7BE2-4174-BB0C-3125D99392E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D7E320F-7BE2-4174-BB0C-3125D99392E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2E5993-D2A9-4F5F-B687-172ED8D7A1A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2E5993-D2A9-4F5F-B687-172ED8D7A1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2E5993-D2A9-4F5F-B687-172ED8D7A1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2E5993-D2A9-4F5F-B687-172ED8D7A1A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

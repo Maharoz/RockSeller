@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RockSelling.Data;
-using RockSelling.Models;
+using RockSelling_Models;
 using RockSelling_Utility;
 using System;
 using System.Collections.Generic;

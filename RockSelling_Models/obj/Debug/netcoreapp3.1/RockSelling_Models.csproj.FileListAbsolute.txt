@@ -1,0 +1,9 @@
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\obj\Debug\netcoreapp3.1\RockSelling_Models.csprojAssemblyReference.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\obj\Debug\netcoreapp3.1\RockSelling_Models.AssemblyInfoInputs.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\obj\Debug\netcoreapp3.1\RockSelling_Models.AssemblyInfo.cs
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\obj\Debug\netcoreapp3.1\RockSelling_Models.csproj.CoreCompileInputs.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\bin\Debug\netcoreapp3.1\RockSelling_Models.deps.json
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\bin\Debug\netcoreapp3.1\RockSelling_Models.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\bin\Debug\netcoreapp3.1\RockSelling_Models.pdb
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\obj\Debug\netcoreapp3.1\RockSelling_Models.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Models\obj\Debug\netcoreapp3.1\RockSelling_Models.pdb

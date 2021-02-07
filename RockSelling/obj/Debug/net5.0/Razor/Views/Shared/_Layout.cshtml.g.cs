@@ -21,7 +21,7 @@ using RockSelling;
 #nullable disable
 #nullable restore
 #line 2 "G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\Views\_ViewImports.cshtml"
-using RockSelling.Models;
+using RockSelling_Models;
 
 #line default
 #line hidden
@@ -41,7 +41,7 @@ using RockSelling_Utility;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"df96d0f4aee8b211dc3690dc04bba83c4620f7cd", @"/Views/Shared/_Layout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cb262b506a4e288f444ac1f5c6e1e12cf5e08239", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7caf1827019c6b8c50f2c652eb63b99b8ab77a1d", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Layout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("rel", new global::Microsoft.AspNetCore.Html.HtmlString("stylesheet"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

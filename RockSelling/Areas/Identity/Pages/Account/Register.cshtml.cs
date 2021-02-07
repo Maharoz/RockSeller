@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using RockSelling.Models;
+using RockSelling_Models;
 using RockSelling_Utility;
 
 namespace RockSelling.Areas.Identity.Pages.Account

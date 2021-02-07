@@ -20,7 +20,7 @@ namespace RockSelling.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("RockSelling.Models.ApplicationType", b =>
+            modelBuilder.Entity("RockSelling_Models.ApplicationType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,7 +36,7 @@ namespace RockSelling.Migrations
                     b.ToTable("ApplicationType");
                 });
 
-            modelBuilder.Entity("RockSelling.Models.Category", b =>
+            modelBuilder.Entity("RockSelling_Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -55,7 +55,7 @@ namespace RockSelling.Migrations
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("RockSelling.Models.Product", b =>
+            modelBuilder.Entity("RockSelling_Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -85,9 +85,9 @@ namespace RockSelling.Migrations
                     b.ToTable("Product");
                 });
 
-            modelBuilder.Entity("RockSelling.Models.Product", b =>
+            modelBuilder.Entity("RockSelling_Models.Product", b =>
                 {
-                    b.HasOne("RockSelling.Models.Category", "Category")
+                    b.HasOne("RockSelling_Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
