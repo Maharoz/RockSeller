@@ -1,0 +1,9 @@
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\bin\Debug\netcoreapp3.1\RockSelling_Utility.deps.json
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\bin\Debug\netcoreapp3.1\RockSelling_Utility.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\bin\Debug\netcoreapp3.1\RockSelling_Utility.pdb
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\obj\Debug\netcoreapp3.1\RockSelling_Utility.csprojAssemblyReference.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\obj\Debug\netcoreapp3.1\RockSelling_Utility.AssemblyInfoInputs.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\obj\Debug\netcoreapp3.1\RockSelling_Utility.AssemblyInfo.cs
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\obj\Debug\netcoreapp3.1\RockSelling_Utility.csproj.CoreCompileInputs.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\obj\Debug\netcoreapp3.1\RockSelling_Utility.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_Utility\obj\Debug\netcoreapp3.1\RockSelling_Utility.pdb

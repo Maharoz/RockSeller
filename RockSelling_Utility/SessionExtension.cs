@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace RockSelling.Utility
+namespace RockSelling_Utility
 {
     public static class SessionExtension
     {
