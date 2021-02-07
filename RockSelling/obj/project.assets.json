@@ -3710,6 +3710,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "RockSelling_DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.2",
+          "Microsoft.EntityFrameworkCore": "5.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.2",
+          "RockSelling_Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RockSelling_DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockSelling_DataAccess.dll": {}
+        }
+      },
       "RockSelling_Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -11043,6 +11060,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "RockSelling_DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../RockSelling_DataAccess/RockSelling_DataAccess.csproj",
+      "msbuildProject": "../RockSelling_DataAccess/RockSelling_DataAccess.csproj"
+    },
     "RockSelling_Models/1.0.0": {
       "type": "project",
       "path": "../RockSelling_Models/RockSelling_Models.csproj",
@@ -11063,6 +11085,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.2",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.1",
+      "RockSelling_DataAccess >= 1.0.0",
       "RockSelling_Models >= 1.0.0",
       "RockSelling_Utility >= 1.0.0"
     ]
@@ -11101,6 +11124,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "G:\\Core Projects\\NetCoreMVC\\RockSelling\\RockSelling_DataAccess\\RockSelling_DataAccess.csproj": {
+              "projectPath": "G:\\Core Projects\\NetCoreMVC\\RockSelling\\RockSelling_DataAccess\\RockSelling_DataAccess.csproj"
+            },
             "G:\\Core Projects\\NetCoreMVC\\RockSelling\\RockSelling_Models\\RockSelling_Models.csproj": {
               "projectPath": "G:\\Core Projects\\NetCoreMVC\\RockSelling\\RockSelling_Models\\RockSelling_Models.csproj"
             },

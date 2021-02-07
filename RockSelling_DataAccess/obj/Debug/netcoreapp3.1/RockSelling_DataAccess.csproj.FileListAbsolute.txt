@@ -1,0 +1,12 @@
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.csprojAssemblyReference.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.AssemblyInfoInputs.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.AssemblyInfo.cs
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.csproj.CoreCompileInputs.cache
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\bin\Debug\netcoreapp3.1\RockSelling_DataAccess.deps.json
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\bin\Debug\netcoreapp3.1\RockSelling_DataAccess.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\bin\Debug\netcoreapp3.1\RockSelling_DataAccess.pdb
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\bin\Debug\netcoreapp3.1\RockSelling_Models.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\bin\Debug\netcoreapp3.1\RockSelling_Models.pdb
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.csproj.CopyComplete
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling_DataAccess\obj\Debug\netcoreapp3.1\RockSelling_DataAccess.pdb

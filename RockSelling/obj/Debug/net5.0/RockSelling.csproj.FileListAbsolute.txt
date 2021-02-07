@@ -224,3 +224,5 @@ G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Microsoft.E
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_Models.dll
 G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_Models.pdb
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_DataAccess.dll
+G:\Core Projects\NetCoreMVC\RockSelling\RockSelling\bin\Debug\net5.0\RockSelling_DataAccess.pdb
