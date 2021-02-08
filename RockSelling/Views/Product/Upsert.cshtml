@@ -16,6 +16,7 @@
             <h2 class="text-info pl-3">@title</h2>
         </div>
         <div class="row">
+
             <div class="col-8">
                 <div class="form-group row py-2">
                     <div class="col-4">
@@ -52,7 +53,6 @@
 
                 </div>
 
-
                 <div class="form-group row py-2">
                     <div class="col-4">
                         <label asp-for="Product.Description"></label>
@@ -63,6 +63,7 @@
                     </div>
 
                 </div>
+
                 <div class="form-group row py-2">
                     <div class="col-4">
                         Image
@@ -72,6 +73,7 @@
                     </div>
 
                 </div>
+
                 <div class="form-group row py-2">
                     <div class="col-4">
                         <label asp-for="Product.CategoryId"></label>
@@ -85,7 +87,6 @@
 
                 </div>
 
-
                 <div class="form-group row py-2">
                     <div class="col-4">
                         <label asp-for="Product.ApplicationTypeId"></label>
@@ -98,7 +99,6 @@
                     </div>
 
                 </div>
-
 
                 <div class="form-group row py-2">
                     <div class="col-8 offset-4 row">
@@ -122,6 +122,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-4">
                 @* Keep this empty *@
                 @if (Model.Product.Id != 0)

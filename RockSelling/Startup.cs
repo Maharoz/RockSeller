@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RockSelling.Data;
+using RockSelling_DataAccess.Data.Repository;
+using RockSelling_DataAccess.Data.Repository.IRepository;
 using RockSelling_Utility;
 using System;
 using System.Collections.Generic;
@@ -46,6 +48,7 @@ namespace RockSelling
                 Options.Cookie.HttpOnly = true;
                 Options.Cookie.IsEssential = true;
             });
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddControllersWithViews();
         }
 

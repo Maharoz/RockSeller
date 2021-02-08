@@ -14,7 +14,6 @@ namespace RockSelling_DataAccess.Data.Repository
 
         private readonly ApplicationDBContext _db;
         internal DbSet<T> dbSet;
-
         public Repository(ApplicationDBContext db)
         {
             _db = db;
@@ -24,12 +23,10 @@ namespace RockSelling_DataAccess.Data.Repository
         {
             dbSet.Add(entity);
         }
-
         public T Find(int id)
         {
             return dbSet.Find(id);
         }
-
         public T FirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null, bool isTracking = true)
         {
             IQueryable<T> query = dbSet;
@@ -56,7 +53,6 @@ namespace RockSelling_DataAccess.Data.Repository
 
             return query.FirstOrDefault();
         }
-
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedEnumerable<T>> orderBy = null, string includeProperties = null, bool isTracking = true)
         {
             IQueryable<T> query = dbSet;
@@ -86,12 +82,10 @@ namespace RockSelling_DataAccess.Data.Repository
 
             return query.ToList();
         }
-
         public void Remove(T entity)
         {
             dbSet.Remove(entity);
         }
-
         public void Save()
         {
             _db.SaveChanges();

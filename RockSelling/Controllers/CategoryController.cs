@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RockSelling.Data;
+using RockSelling_DataAccess.Data.Repository.IRepository;
 using RockSelling_Models;
 using RockSelling_Utility;
 using System;
@@ -14,15 +15,15 @@ namespace RockSelling.Controllers
     public class CategoryController : Controller
     {
 
-        private readonly ApplicationDBContext _db;
+        private readonly ICategoryRepository _catRepo;
 
-        public CategoryController(ApplicationDBContext db)
+        public CategoryController(ICategoryRepository catRepo)
         {
-            _db = db;
+            _catRepo = catRepo;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> objList = _db.Category;
+            IEnumerable<Category> objList = _catRepo.GetAll();
             return View(objList);
         }
 
@@ -42,8 +43,8 @@ namespace RockSelling.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Category.Add(obj);
-                _db.SaveChanges();
+                _catRepo.Add(obj);
+                _catRepo.Save();
 
                 return RedirectToAction("Index");
             }
@@ -60,7 +61,7 @@ namespace RockSelling.Controllers
             {
                 return NotFound();
             }
-            var obj = _db.Category.Find(id);
+            var obj = _catRepo.Find(id.GetValueOrDefault());
 
             if (obj == null)
             {
@@ -77,8 +78,8 @@ namespace RockSelling.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Category.Update(obj);
-                _db.SaveChanges();
+                _catRepo.Update(obj);
+                _catRepo.Save();
 
                 return RedirectToAction("Index");
             }
@@ -95,7 +96,7 @@ namespace RockSelling.Controllers
             {
                 return NotFound();
             }
-            var obj = _db.Category.Find(id);
+            var obj = _catRepo.Find(id.GetValueOrDefault());
 
             if (obj == null)
             {
@@ -110,15 +111,15 @@ namespace RockSelling.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
-            var obj = _db.Category.Find(id);
+            var obj = _catRepo.Find(id.GetValueOrDefault());
             
 
             if(obj == null)
             {
                 return NotFound();
             }
-                _db.Category.Remove(obj);
-                _db.SaveChanges();
+                _catRepo.Remove(obj);
+                _catRepo.Save();
 
                 return RedirectToAction("Index");
            
